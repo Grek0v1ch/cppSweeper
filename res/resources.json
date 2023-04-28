@@ -1,0 +1,165 @@
+{
+    "shaders": [
+        {
+            "name": "spriteShader",
+            "filePath_v": "res/shaders/vertex.txt",
+            "filePath_f": "res/shaders/fragment.txt"
+        }
+    ],
+    "textureAtlases": [
+        {
+            "name": "buttonTypes",
+            "filePath" : "res/texture/ButtonTypes.png",
+            "subTextureWidth": 16,
+            "subTextureHeight": 16,
+            "subTextures": [
+                "closed",
+                "num1",
+                "num2",
+                "num3",
+                "num4",
+                "num5",
+                "num6",
+                "num7",
+                "num8",
+                "zero",
+                "bomb",
+                "flag",
+                "noBomb",
+                "bombed",
+                "inform",
+                "openInform"
+            ]
+        }
+    ],
+    "sprites": [
+        {
+            "spriteName": "closed",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "closed"
+        },
+        {
+            "spriteName": "num1",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num1"
+        },
+        {
+            "spriteName": "num2",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num2"
+        },
+        {
+            "spriteName": "num3",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num3"
+        },
+        {
+            "spriteName": "num4",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num4"
+        },
+        {
+            "spriteName": "num5",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num5"
+        },
+        {
+            "spriteName": "num6",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num6"
+        },
+        {
+            "spriteName": "num7",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num7"
+        },
+        {
+            "spriteName": "num8",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "num8"
+        },
+        {
+            "spriteName": "zero",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "zero"
+        },
+        {
+            "spriteName": "bomb",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "bomb"
+        },
+        {
+            "spriteName": "flag",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "flag"
+        },
+        {
+            "spriteName": "noBomb",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "noBomb"
+        },
+        {
+            "spriteName": "bombed",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "bombed"
+        },
+        {
+            "spriteName": "inform",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "inform"
+        },
+        {
+            "spriteName": "openInform",
+            "textureName": "buttonTypes",
+            "shaderName": "spriteShader",
+            "spriteWidth": 40,
+            "spriteHeight": 40,
+            "subTextureName": "openInform"
+        }
+    ]
+}
